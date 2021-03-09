@@ -7,11 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <article id="citation">
-    La vie a plus d'imagination que nous
-    </article>
-    <button id="button">
-    </button>
+    <textarea id="keylogger" cols="30" rows="10"></textarea>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

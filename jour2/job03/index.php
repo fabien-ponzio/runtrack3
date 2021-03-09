@@ -7,11 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <article id="citation">
-    La vie a plus d'imagination que nous
-    </article>
-    <button id="button">
-    </button>
+<article id="compteur">0</article>
+    <button id="button"></button>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
