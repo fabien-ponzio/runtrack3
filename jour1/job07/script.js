@@ -1,9 +1,11 @@
 // <!-- console.warn // console.error -->
 
 function jourtravaille(date) {
+  //jourtravaille prends en parametre date
   let travailoupas = "jour travaillé";
 
   const joursferies = [
+    // nouveaux objets date regroupés dans un tableau jours fériés
     new Date(2020, 0, 1),
     new Date(2020, 4, 4),
     new Date(2020, 4, 1),
@@ -21,10 +23,13 @@ function jourtravaille(date) {
   // date.format("{Month:2}-{Date:2}-{FullYear}"); // mm-dd-yyyy
 
   if (date.getDay() == 0 || date.getDay() == 6) {
+    // method getDay appliquée à date via "."
+    //dimanche = 0, samedi = 6
     travailoupas = "weekend";
   }
 
   for (i = 0; i < joursferies.length; i++) {
+    //boucle for qui va inspecter les éléments i du tableau joursferies à laquelle on applique la methode getTime
     if (date.getTime() == joursferies[i].getTime()) {
       travailoupas = "joursferies";
     }
@@ -32,6 +37,7 @@ function jourtravaille(date) {
   return travailoupas;
 }
 
+// on receuil les mois dans un tableau de variable "mois"
 var mois = [
   "janvier",
   "fevrier",
@@ -47,8 +53,9 @@ var mois = [
   "décembre",
 ];
 
+// on établie une nouvelle variable date 1 = nouvel objet  date 
 var date1 = new Date(2020, 0, 1);
-
+// on concatène avec des + dans le console.log
 console.log(
   "Non, le " +
     date1.getDate() +
