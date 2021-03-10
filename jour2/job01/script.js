@@ -7,3 +7,6 @@ function citation(params) {
     let citation = document.getElementById("citation"); 
     console.log(citation.innerHTML); 
 }
+
+mydiv1.innerHTML = mydiv2.innerHTML; 
+mydiv1.innerHTML = temp
