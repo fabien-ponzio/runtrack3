@@ -16,7 +16,7 @@
     <img class="img" id="5" src="images/arc5.png">
     <img class="img" id="6" src="images/arc6.png">
 </div>
-<button id="button"></button>
+<button id="button">clique s'il te plait</button>
 
 <div id="rangees"></div>
 
