@@ -1,0 +1,26 @@
+<?php 
+try {
+    $conn = new PDO("mysql:host=localhost; dbname=utilisateurs", "root", "");
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn;
+    echo "Connected successfully"."<br>";
+  } catch(PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+  }
+
+
+
+?>
+<body>
+    <form method="" action="">
+    <label for="">email</label>
+    <input type="email">
+
+    <label for="">password</label>
+    <input type="text">
+
+    <button type="button"></button>
+    </form>
+</body>
+</html>
