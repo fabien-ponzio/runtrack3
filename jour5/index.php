@@ -10,12 +10,17 @@
 <body>
     <p>
     <!-- SI USER EST CONNECTED -->
-    Bonjour "session_user"
+    <?php if(isset($_SESSION['utilisateur'])){
+        echo 'Bonjour session_user';
+    };
+    session_start();
+    var_dump($_SESSION['utilisateur']);
+    ?>
     </p>
     <!-- ELSE -->
     <p>
-    <button id="button" href="inscription.php"></button>
-    <button id="button2" href="connexion.php"></button>
+    <a href="inscription.php">inscription</a>
+    <a href="connexion.php">connexion</a>
     </p>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>

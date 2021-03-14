@@ -1,26 +1,23 @@
-<?php 
-try {
-    $conn = new PDO("mysql:host=localhost; dbname=utilisateurs", "root", "");
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $conn;
-    echo "Connected successfully"."<br>";
-  } catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-  }
 
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
 <body>
-    <form method="" action="">
+    <form method="POST" action="">
     <label for="">email</label>
-    <input type="email">
+    <input type="email" id="emailConnect" name="email">
 
     <label for="">password</label>
-    <input type="text">
+    <input type="password" id="passwordConnect" name="password">
 
-    <button type="button"></button>
+    <button type="submit" id="submitConnect" name="connect">submit</button>
     </form>
 </body>
 </html>
