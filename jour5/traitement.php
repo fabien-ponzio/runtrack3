@@ -11,8 +11,6 @@ $user = new User($db);
     $connectuser = $user->connectUser($email, $password);
     //var_dump($db); 
     echo 'connect';
-  }else{
-      echo'failed';
   }
    
 ?>

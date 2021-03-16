@@ -10,7 +10,7 @@
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <form method="POST" action="">
+    <form method="POST" action="traitement.php">
     <label for="">email</label>
     <input type="email" id="emailConnect" name="email">
 

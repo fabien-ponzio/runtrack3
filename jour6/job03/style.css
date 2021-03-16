@@ -1,0 +1,52 @@
+body{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width : 100%; 
+}
+
+section{
+ background-color: blue;
+ width: 200px;
+ height: 200px;
+}
+
+@media (max-width: 1600px){
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    section{
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1599px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }    
+    
+    section{
+        width: 45%;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 767px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    section{
+        width: 90%;
+        margin : 10%; 
+    }
+} 
