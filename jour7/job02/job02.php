@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="job02.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
@@ -98,16 +99,16 @@
 
 <div class="col-2">
 <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active">Limbes</a>
-  <a href="#" class="list-group-item list-group-item-action">Luxure</a>
-  <a href="#" class="list-group-item list-group-item-action">Gourmandise</a>
-  <a href="#" class="list-group-item list-group-item-action">Avarice</a>
-  <a href="#" class="list-group-item list-group-item-action">Colère</a>
-  <a href="#" class="list-group-item list-group-item-action">Heresie</a>
-  <a href="#" class="list-group-item list-group-item-action">Violence</a>
-  <a href="#" class="list-group-item list-group-item-action">Ruse et Tromperie</a>
-  <a href="#" class="list-group-item list-group-item-action">Trahison</a>
-  <button type="button" class="list-group-item list-group-item-action" disabled>Internet Explorer</button>
+  <a href="#" class="list-group-item list-group-item-action active" onclick="activeCase()">Limbes</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Luxure</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Gourmandise</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Avarice</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Colère</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Heresie</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Violence</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Ruse et Tromperie</a>
+  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Trahison</a>
+  <button type="button" class="list-group-item list-group-item-action" onclick="activeCase()" disabled >Internet Explorer</button>
 </div>
 </div>
 </div>

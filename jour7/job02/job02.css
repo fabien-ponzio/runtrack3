@@ -1,0 +1,7 @@
+.list-group-item{
+    background-color: white;
+}
+
+.selected{
+    background-color: #007bff ;
+}
