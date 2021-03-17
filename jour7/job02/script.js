@@ -21,9 +21,23 @@ function changeContent() {
     content[Math.floor(Math.random() * content.length)];
 }
 
-function activeCase() {
-  let Selected = document.getElementsByClassName("list-group-item");
-  console.log("OKOKOKOK");
-  // Selected.classList.remove("list-group-item");
-  Selected.classList.toggle("selected");
-}
+//let Selected = document.querySelector(".list-group");
+//let aList = Selected.children;
+// let aList = document.querySelectorAll(".list-group>a") ; 
+// for (let i = 0; i < aList.length; i++) {
+//   const element = aList[i];
+//   element.addEventListener("click", function (event) {
+//     console.log(this);
+//     for (let y = 0; y < aList.length; y++) {
+//       const element = aList[y];
+//       element.classList.remove("active"); 
+//     }
+//     this.classList.add("active"); 
+//     // $(selector).addClass(className);
+//   });
+// }
+
+$(".list-group>a").click(function (e) { 
+  $(".list-group>a").removeClass("active"); 
+  $(this).addClass("active"); 
+});

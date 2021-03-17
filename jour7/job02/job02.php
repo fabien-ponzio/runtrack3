@@ -99,16 +99,16 @@
 
 <div class="col-2">
 <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active" onclick="activeCase()">Limbes</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Luxure</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Gourmandise</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Avarice</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Colère</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Heresie</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Violence</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Ruse et Tromperie</a>
-  <a href="#" class="list-group-item list-group-item-action" onclick="activeCase()">Trahison</a>
-  <button type="button" class="list-group-item list-group-item-action" onclick="activeCase()" disabled >Internet Explorer</button>
+  <a href="#" class="list-group-item list-group-item-action ">Limbes</a>
+  <a href="#" class="list-group-item list-group-item-action active">Luxure</a>
+  <a href="#" class="list-group-item list-group-item-action">Gourmandise</a>
+  <a href="#" class="list-group-item list-group-item-action">Avarice</a>
+  <a href="#" class="list-group-item list-group-item-action">Colère</a>
+  <a href="#" class="list-group-item list-group-item-action">Heresie</a>
+  <a href="#" class="list-group-item list-group-item-action">Violence</a>
+  <a href="#" class="list-group-item list-group-item-action">Ruse et Tromperie</a>
+  <a href="#" class="list-group-item list-group-item-action">Trahison</a>
+  <button type="button" class="list-group-item list-group-item-action" disabled >Internet Explorer</button>
 </div>
 </div>
 </div>
